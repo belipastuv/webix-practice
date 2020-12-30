@@ -17,6 +17,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Container from '@material-ui/core/Container';
+import Sidebar from '../../components/Sidebar';
 
 
 const useStyles = makeStyles({
@@ -72,6 +73,7 @@ const Users = ({ getUsers, users }) => {
             <Button onClick={getUsersFromAPI} className={styles.buttonCustom}>
                 Get Users
             </Button>
+            <Sidebar></Sidebar>
         </Container>
     )
 }

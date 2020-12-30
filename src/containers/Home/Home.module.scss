@@ -1,3 +1,59 @@
+@import "../../colors";
+
+
 .red {
-    color: red
+    color: $test;
+}
+
+.logo {
+    width: 205px;
+    margin-bottom: 15px;
+}
+
+.divtest {
+    height: 100px;
+    width: 100px;
+}
+
+.stampWrapper {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 3px #bdbdbd;
+    min-height: calc(100vh - 80px);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex !important;
+    align-items: center;
+}
+
+.meInput {
+    min-width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #9d9d9d;
+    padding: 8px 5px;
+    margin-top: 20px;
+}
+
+.meInput:focus, .meInput:active {
+    outline: none;
+}
+
+.link {
+    cursor: pointer;
+    display: block;
+}
+
+.innerHome {
+    height: 100%;
+}
+
+.logInBtn {
+    width: 150px;
+    padding: 8px 20px;
+    border-radius: 13px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    border: none;
 }
